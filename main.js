@@ -16,6 +16,6 @@ let letras = fetch("https://genius.p.rapidapi.com/search?q=Kendrick%20Lamar", {
     console.log(response["response"]["hits"])
     let resultados = response["response"]["hits"]
     resultados.forEach(element => {
-		divResultados.innerHTML += element["result"]["title"];
+		divResultados.innerHTML += `${element["result"]["title"]},,, `;
 	});
 })
