@@ -23,11 +23,15 @@
 				<ul  class="navbar-nav">
 
 					<li class="nav-item text-center">
-						<a class="nav-link" href="https://github.com/sky-zoo">My Github</a>
+						<a class="nav-link" href="https://github.com/sky-zoo" target="_blank">My Github</a>
 					</li>
 
 					<li class="nav-item">
-						<a id="botonContacto" class="nav-link" href="#">Contact</a>
+						<a id="botonContacto" class="nav-link" href="https://www.linkedin.com/in/rodrigo-galeano-segovia-90a5b71b1/" target="_blank">LinkedIn</a>
+					</li>
+
+					<li class="nav-item">
+						<a id="botonContacto" class="nav-link" href="mailto:rodrigo-1905@hotmail.com" target="_blank">Send me an email</a>
 					</li>
 
 				</ul>
@@ -71,17 +75,6 @@
 				<h2 class="text-center">Introduce your search</h2>
 			</div>
 
-		</div>
-	</div>
-
-	<div id="contacto" class="contacto ocultar">
-		<div class="container card">
-			<h2 class="text-center card-header">Contact Me</h2>
-			<div class="list-group card-body d-flex justify-content-center text-center">
-				<a href="https://github.com/sky-zoo" class="list-group-item list-group-item-action">My Github</a>
-				<a href="https://www.linkedin.com/in/rodrigo-galeano-segovia-90a5b71b1/" class="list-group-item list-group-item-action">LinkedIn</a>
-				<a href="mailto:rodrigo-1905@hotmail.com" class="list-group-item list-group-item-action">Send me an email!</a>
-			</div>
 		</div>
 	</div>
 
