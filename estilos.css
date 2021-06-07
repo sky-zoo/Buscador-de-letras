@@ -1,3 +1,8 @@
+body{
+	overflow: hidden;
+}
+
+
 .navbar{
 	background-color: #5902cc;
 }
@@ -18,7 +23,6 @@ aside.container-fluid .circulo h1{
 
 .info{
 	position: relative;
-	border: 1px red solid;
 }
 
 .carta{
@@ -41,7 +45,6 @@ aside.container-fluid .circulo h1{
 	transform: translateX(-50%);
 	border-radius: 50%;
 	position: absolute;
-	/*background-color: #cc0274;*/
 	background-color: var(--success);
 	z-index: -23;
 }
@@ -86,7 +89,6 @@ aside.container-fluid .circulo h1{
 }
 
 #pokemones{
-	/*border: 1px blue solid;*/
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
@@ -148,13 +150,33 @@ aside.container-fluid .circulo h1{
 	transform: translate(-50%, -50%);
 }
 
-.contacto{
-	border: 1px red solid;
+.contacto .container{
 	position: absolute;
-	top: 0;
+	height: 440px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 0 30px -2px;
+	transition: all .2s;
+}
+
+.ocultar{
+	position: absolute;
+	left: -100%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,.4);
+	box-shadow: 0 0 30px -2px;
+	transition: all 1s;
+}
+
+.mostrar{
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	box-shadow: 0 0 30px -2px;
+	transition: all .3s;
 }
 
 
