@@ -3,6 +3,11 @@ document.getElementById("btnEnviar").addEventListener("click", function(evento){
 	buscarPokemon();
 });
 
+let botonContacto = document.getElementById("botonContacto");
+botonContacto.addEventListener("click", function(){
+	console.log("Hola");
+});
+
 /*
 	Muestra en la carta del pokemon cuales son sus evoluciones
 
