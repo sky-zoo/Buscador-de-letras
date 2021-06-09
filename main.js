@@ -130,7 +130,7 @@ function buscarPokemon(){
 
 			if(this.readyState == 4 && this.status == 200){
 				let respuesta = JSON.parse(this.responseText);
-				console.log(busqueda)
+				
 				dibujarCaracteristicas(listaPokemones, respuesta);
 				dibujarEspecificaciones(listaPokemones, respuesta);
 
