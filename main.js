@@ -112,7 +112,7 @@ function buscarYMostrarEvoluciones(elementoADibujar, url){
 
 */
 function buscarPokemon(){
-	let busqueda = document.getElementById("nombrePokemon").value;
+	let busqueda = document.getElementById("nombrePokemon").value.toLowerCase();
 
 	let listaPokemones = document.getElementById("pokemones");
 
@@ -130,7 +130,7 @@ function buscarPokemon(){
 
 			if(this.readyState == 4 && this.status == 200){
 				let respuesta = JSON.parse(this.responseText);
-
+				console.log(busqueda)
 				dibujarCaracteristicas(listaPokemones, respuesta);
 				dibujarEspecificaciones(listaPokemones, respuesta);
 
